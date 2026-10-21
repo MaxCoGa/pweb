@@ -1,0 +1,81 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 20px;
+  background-color: #201f1f;
+}
+
+h1 {
+  text-align: center;
+  color: #ff69b4;
+}
+
+.controls-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.filter-container {
+  margin-right: 20px;
+  color: #c8a3b9;
+}
+
+#package-filter {
+  padding: 8px;
+  border: 1px solid #893487;
+  border-radius: 4px;
+  background-color: #332e2e;
+  color: #c8a3b9;
+}
+
+#search-bar {
+  padding: 10px;
+  width: 80%;
+  max-width: 500px;
+  background-color: #332e2e;
+  border: 1px solid #893487;
+  border-radius: 4px;
+  color: #c8a3b9;
+}
+
+a {
+  color: #c8a3b9;
+}
+
+#results-container {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #332e2e;
+  border: 1px solid #893487;
+  border-radius: 4px;
+  color: #c8a3b9;
+  display: grid;
+  gap: 20px; /* Spacing between grid items */
+}
+
+.package-item {
+  padding: 10px;
+  border: 2px solid #893487; /* Add border to all sides */
+  /* From https://css.glass */
+background: rgb(255, 105, 180, 0.25);
+border-radius: 4px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(20px);
+-webkit-backdrop-filter: blur(20px);
+}
+
+.close-button {
+  color: #c8a3b9;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+/* Responsive grid for package items */
+@media (min-width: 768px) {
+  #results-container {
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* 2 or more columns on larger screens */
+  }
+}

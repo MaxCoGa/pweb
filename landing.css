@@ -1,0 +1,90 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #201f1f; /* Dark background */
+    color: #c8a3b9; /* Pinkish-grey text color */
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+header {
+    background-color: #1a1919; /* Slightly darker background for header */
+    padding: 10px 0;
+    border-bottom: 1px solid #893487; /* Pinkish border */
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    height: 50px; /* Adjust logo height as needed */
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav li {
+    margin-left: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #ff69b4; /* Pink link color */
+    font-weight: bold;
+}
+
+main {
+    padding: 20px 0;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+#hero {
+    text-align: center;
+    padding: 60px 0;
+    background-color: #332e2e; /* Another shade for hero section */
+}
+
+#hero h1 {
+    color: #ff69b4; /* Pink heading color */
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+#about h2 {
+    color: #ff69b4; /* Pink heading color */
+    margin-bottom: 15px;
+}
+
+#about ul {
+    list-style: disc;
+    margin-left: 20px;
+}
+
+#about li {
+    margin-bottom: 5px;
+}
+
+
+footer {
+    background-color: #1a1919; /* Darker background for footer */
+    padding: 20px 0;
+    text-align: center;
+    border-top: 1px solid #893487; /* Pinkish border */
+    color: #c8a3b9; /* Pinkish-grey text color */
+    font-size: 0.9em;
+}
