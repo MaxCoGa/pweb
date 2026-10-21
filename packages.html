@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Paran Packages Search</title>
+  <link href='/style.css' rel='stylesheet'>
+</head>
+<body>
+  <h1>Paran Packages Search</h1>
+  <div class="controls-container">
+    <div class="filter-container">
+      <label for="package-filter">Filter:</label>
+      <select id="package-filter">
+        <option value="stable">Stable</option>
+        <option value="latest">Latest</option>
+        <option value="community">Community</option>
+      </select>
+    </div>
+    <input type="text" id="search-bar" placeholder="Search for packages...">
+  </div>
+  <div id="results-container"></div>
+  <script defer type="text/javascript" src="/main.js"></script>
+</body>
+</html>
